@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quetzal Loto | Triples y Terminales</title>
+    <meta name="description" content="Pagina web de loteria orientada a Guatemala, con triples, terminales, resultados en vivo y panel de jugadas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="top-strip py-2">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+            <div class="d-flex align-items-center gap-3 text-center text-md-start">
+                <span class="badge rounded-pill px-3 py-2">Resultados en vivo</span>
+                <span>Triples, terminales y jugadas directas para el mercado de Guatemala</span>
+            </div>
+            <div class="d-flex align-items-center gap-3 small fw-semibold">
+                <span>Atencion: 8:00 AM - 9:00 PM</span>
+                <span>Pago rapido y seguro</span>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg sticky-top py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio" aria-label="Quetzal Loto">
+                <img src="assets/img/logo-quetzal-loto.svg" alt="Quetzal Loto" class="brand-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Alternar navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#resultados">Resultados</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#jugadas">Jugadas</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#loterias">Modalidades</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#promociones">Promociones</a></li>
+                    <li class="nav-item"><a class="btn btn-warning px-4 ms-lg-2" href="#registrate">Abrir cuenta</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-7">
+                        <div class="hero-card p-4 p-lg-5 h-100">
+                            <span class="eyebrow mb-4">Tu centro de apuestas diarias en Guatemala</span>
+                            <h1 class="hero-title mb-3">Una forma segura de ganar</h1>
+                            <p class="hero-subtitle mb-4">Una portada pensada para loterias populares en Guatemala: resultados destacados, acceso rapido a jugadas, horarios visibles y una estructura clara para captar jugadores, agentes y bancas.</p>
+                            <div class="d-flex flex-wrap gap-3 mb-4">
+                                <a href="#jugadas" class="btn btn-warning px-4">Jugar ahora</a>
+                                <a href="#resultados" class="btn btn-outline-light px-4">Ver resultados</a>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-sm-4">
+                                    <div class="draw-chip h-100">
+                                        <div class="small text-uppercase fw-bold opacity-75 mb-2">Triple destacado</div>
+                                        <div class="draw-number brand-font">428</div>
+                                        <div class="small opacity-75 mt-2">Sorteo 1:00 PM</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="draw-chip h-100">
+                                        <div class="small text-uppercase fw-bold opacity-75 mb-2">Terminal del dia</div>
+                                        <div class="draw-number brand-font">17</div>
+                                        <div class="small opacity-75 mt-2">Pago especial</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="draw-chip h-100">
+                                        <div class="small text-uppercase fw-bold opacity-75 mb-2">Premio tope</div>
+                                        <div class="draw-number brand-font">x70</div>
+                                        <div class="small opacity-75 mt-2">En triples directos</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="glass-card p-4 p-lg-4 h-100">
+                            <div class="floating-badge mb-3">Panel rapido del dia</div>
+                            <h2 class="h3 mb-3">Horarios y resultados activos</h2>
+                            <div class="row g-3 mb-4">
+                                <div class="col-6">
+                                    <div class="border rounded-4 p-3 h-100 bg-white">
+                                        <div class="small text-secondary fw-semibold">Manana</div>
+                                        <div class="fs-3 fw-bold text-primary">11:00</div>
+                                        <div class="small">Triple, terminal y pick</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="border rounded-4 p-3 h-100 bg-white">
+                                        <div class="small text-secondary fw-semibold">Tarde</div>
+                                        <div class="fs-3 fw-bold text-danger">1:00</div>
+                                        <div class="small">Sorteo principal</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="border rounded-4 p-3 h-100 bg-white">
+                                        <div class="small text-secondary fw-semibold">Vespertino</div>
+                                        <div class="fs-3 fw-bold text-warning">4:30</div>
+                                        <div class="small">Terminal plus</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="border rounded-4 p-3 h-100 bg-white">
+                                        <div class="small text-secondary fw-semibold">Noche</div>
+                                        <div class="fs-3 fw-bold" style="color: var(--ql-ink);">8:45</div>
+                                        <div class="small">Cierre y pago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-4 p-3 border">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="fw-bold">Ultimo sorteo confirmado</span>
+                                    <span class="badge text-bg-success rounded-pill">Verificado</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <div class="small text-secondary">Triple ganador</div>
+                                        <div class="display-6 fw-bold mb-0">632</div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-secondary">Terminal</div>
+                                        <div class="display-6 fw-bold mb-0">32</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-panel pb-5" id="jugadas">
+            <div class="container">
+                <div class="glass-card p-4 p-lg-5">
+                    <div class="row g-4 align-items-end">
+                        <div class="col-lg-3">
+                            <div class="section-kicker mb-2">Jugada rapida</div>
+                            <h2 class="h3 mb-2">Carga tu apuesta en segundos</h2>
+                            <p class="mb-0 text-secondary">Bloque pensado para captacion: montos, tipo de jugada y horario visibles al primer scroll.</p>
+                        </div>
+                        <div class="col-lg-9">
+                            <form class="row g-3">
+                                <div class="col-md-3">
+                                    <label class="form-label fw-semibold">Numero</label>
+                                    <input type="text" class="form-control" placeholder="Ej: 428 o 17">
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label fw-semibold">Modalidad</label>
+                                    <select class="form-select">
+                                        <option selected>Triple directo</option>
+                                        <option>Triple combinado</option>
+                                        <option>Terminal</option>
+                                        <option>Punta y cola</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label fw-semibold">Loteria</label>
+                                    <input type="text" class="form-control" value="Quetzal Loto" readonly>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label fw-semibold">Monto</label>
+                                    <input type="number" class="form-control" placeholder="Bs. 100">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="d-flex flex-wrap gap-2 pt-1">
+                                        <span class="badge rounded-pill text-bg-light border px-3 py-2">Minimo Bs. 10</span>
+                                        <span class="badge rounded-pill text-bg-light border px-3 py-2">Pago al instante</span>
+                                        <span class="badge rounded-pill text-bg-light border px-3 py-2">Disponible en movil</span>
+                                        <span class="badge rounded-pill text-bg-light border px-3 py-2">Cierre 10 min antes</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-grid">
+                                    <button type="button" class="btn btn-primary">Registrar jugada</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" id="resultados">
+            <div class="container">
+                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3 mb-4">
+                    <div>
+                        <div class="section-kicker mb-2">Resultados del dia</div>
+                        <h2 class="section-title mb-2">Resultado actual e historial de sorteos</h2>
+                        <p class="text-secondary mb-0">Quetzal Loto muestra un unico resultado por sorteo: un triple ganador y una terminal ganadora con acceso rapido al historico reciente.</p>
+                    </div>
+                    <a href="#promociones" class="btn btn-outline-dark px-4">Ver promociones</a>
+                </div>
+                <div class="row g-4">
+                    <div class="col-xl-7">
+                        <div class="results-card p-4 p-lg-5 h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                <div>
+                                    <h3 class="h4 mb-1">Resultado principal</h3>
+                                    <p class="text-secondary mb-0">Quetzal Loto - Sorteo 1:00 PM</p>
+                                </div>
+                                <span class="badge text-bg-danger rounded-pill px-3 py-2">En vivo</span>
+                            </div>
+                            <div class="row g-4 align-items-center">
+                                <div class="col-md-7">
+                                    <div class="d-flex flex-wrap gap-3 mb-4">
+                                        <div class="result-ball">6</div>
+                                        <div class="result-ball">3</div>
+                                        <div class="result-ball">2</div>
+                                        <div class="result-ball gold">32</div>
+                                    </div>
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <div class="border rounded-4 p-3 h-100">
+                                                <div class="small text-secondary mb-1">Modalidad</div>
+                                                <div class="fw-bold fs-5">Triple directo</div>
+                                                <div class="small">Pago estimado: x70</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="border rounded-4 p-3 h-100">
+                                                <div class="small text-secondary mb-1">Terminal ganadora</div>
+                                                <div class="fw-bold fs-5">32</div>
+                                                <div class="small">Pago estimado: x7</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="rounded-4 p-4 text-white h-100" style="background: linear-gradient(160deg, var(--ql-ink), var(--ql-primary-dark));">
+                                        <div class="small text-uppercase fw-bold opacity-75 mb-2">Resumen del sorteo</div>
+                                        <div class="d-flex justify-content-between py-2 border-bottom border-secondary-subtle">
+                                            <span>Triple anterior</span>
+                                            <strong>517</strong>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-2 border-bottom border-secondary-subtle">
+                                            <span>Terminal anterior</span>
+                                            <strong>17</strong>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-2 border-bottom border-secondary-subtle">
+                                            <span>Proximo cierre</span>
+                                            <strong>4:20 PM</strong>
+                                        </div>
+                                        <div class="d-flex justify-content-between pt-2">
+                                            <span>Estado</span>
+                                            <strong>Pago habilitado</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="results-card p-4 h-100">
+                            <h3 class="h4 mb-3">Historial de los ultimos 20 sorteos</h3>
+                            <div class="table-responsive">
+                                <table class="table align-middle mb-0">
+                                    <thead>
+                                        <tr>
+                                            <th>Sorteo</th>
+                                            <th>Fecha</th>
+                                            <th>Hora</th>
+                                            <th>Triple</th>
+                                            <th>Terminal</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>#120</td>
+                                            <td>12/05/2026</td>
+                                            <td>1:00 PM</td>
+                                            <td>632</td>
+                                            <td>32</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#119</td>
+                                            <td>12/05/2026</td>
+                                            <td>11:00 AM</td>
+                                            <td>517</td>
+                                            <td>17</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#118</td>
+                                            <td>11/05/2026</td>
+                                            <td>8:45 PM</td>
+                                            <td>901</td>
+                                            <td>01</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#117</td>
+                                            <td>11/05/2026</td>
+                                            <td>4:30 PM</td>
+                                            <td>428</td>
+                                            <td>28</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#116</td>
+                                            <td>11/05/2026</td>
+                                            <td>11:00 AM</td>
+                                            <td>184</td>
+                                            <td>84</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#115</td>
+                                            <td>10/05/2026</td>
+                                            <td>1:00 PM</td>
+                                            <td>763</td>
+                                            <td>63</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#114</td>
+                                            <td>10/05/2026</td>
+                                            <td>4:30 PM</td>
+                                            <td>245</td>
+                                            <td>45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#113</td>
+                                            <td>10/05/2026</td>
+                                            <td>8:45 PM</td>
+                                            <td>390</td>
+                                            <td>90</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#112</td>
+                                            <td>09/05/2026</td>
+                                            <td>11:00 AM</td>
+                                            <td>821</td>
+                                            <td>21</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#111</td>
+                                            <td>09/05/2026</td>
+                                            <td>1:00 PM</td>
+                                            <td>406</td>
+                                            <td>06</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#110</td>
+                                            <td>09/05/2026</td>
+                                            <td>4:30 PM</td>
+                                            <td>155</td>
+                                            <td>55</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#109</td>
+                                            <td>09/05/2026</td>
+                                            <td>8:45 PM</td>
+                                            <td>672</td>
+                                            <td>72</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#108</td>
+                                            <td>08/05/2026</td>
+                                            <td>11:00 AM</td>
+                                            <td>248</td>
+                                            <td>48</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#107</td>
+                                            <td>08/05/2026</td>
+                                            <td>1:00 PM</td>
+                                            <td>734</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#106</td>
+                                            <td>08/05/2026</td>
+                                            <td>4:30 PM</td>
+                                            <td>582</td>
+                                            <td>82</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#105</td>
+                                            <td>08/05/2026</td>
+                                            <td>8:45 PM</td>
+                                            <td>319</td>
+                                            <td>19</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#104</td>
+                                            <td>07/05/2026</td>
+                                            <td>11:00 AM</td>
+                                            <td>660</td>
+                                            <td>60</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#103</td>
+                                            <td>07/05/2026</td>
+                                            <td>1:00 PM</td>
+                                            <td>274</td>
+                                            <td>74</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#102</td>
+                                            <td>07/05/2026</td>
+                                            <td>4:30 PM</td>
+                                            <td>489</td>
+                                            <td>89</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#101</td>
+                                            <td>07/05/2026</td>
+                                            <td>8:45 PM</td>
+                                            <td>138</td>
+                                            <td>38</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" id="loterias">
+            <div class="container">
+                <div class="row g-4 align-items-end mb-4">
+                    <div class="col-lg-8">
+                        <div class="section-kicker mb-2">Quetzal Loto</div>
+                        <h2 class="section-title mb-2">Una sola loteria con triples y terminales</h2>
+                        <p class="text-secondary mb-0">Esta seccion presenta la operacion de Quetzal Loto como una unica loteria digital, con modalidades claras, horarios fijos y lectura simple del resultado.</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="#registrate" class="btn btn-warning px-4">Crear usuario vendedor</a>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="lottery-card p-4 h-100">
+                            <div class="lottery-icon mb-3">01</div>
+                            <h3 class="h4">Triple directo</h3>
+                            <p class="text-secondary">La jugada principal de Quetzal Loto con un unico triple ganador por sorteo.</p>
+                            <ul class="list-unstyled mb-0 small fw-semibold">
+                                <li class="py-2 border-top">Sorteos: 11:00 AM / 1:00 PM / 4:30 PM / 8:45 PM</li>
+                                <li class="py-2 border-top">Triple directo: x70</li>
+                                <li class="py-2 border-top">Pago rapido y visible en portada</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="lottery-card p-4 h-100">
+                            <div class="lottery-icon mb-3" style="background: linear-gradient(135deg, var(--ql-accent), var(--ql-accent-dark));">02</div>
+                            <h3 class="h4">Terminales</h3>
+                            <p class="text-secondary">Cada sorteo publica una sola terminal ganadora vinculada al triple del momento.</p>
+                            <ul class="list-unstyled mb-0 small fw-semibold">
+                                <li class="py-2 border-top">Terminal ganadora por cada sorteo</li>
+                                <li class="py-2 border-top">Pago estimado: x7</li>
+                                <li class="py-2 border-top">Consulta en tiempo real</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="lottery-card p-4 h-100">
+                            <div class="lottery-icon mb-3" style="background: linear-gradient(135deg, var(--ql-secondary), #cdb392); color: var(--ql-ink);">03</div>
+                            <h3 class="h4">Horarios oficiales</h3>
+                            <p class="text-secondary">La misma loteria opera con ventanas fijas para mantener orden y confianza.</p>
+                            <ul class="list-unstyled mb-0 small fw-semibold">
+                                <li class="py-2 border-top">11:00 AM</li>
+                                <li class="py-2 border-top">1:00 PM y 4:30 PM</li>
+                                <li class="py-2 border-top">Cierre final: 8:45 PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="lottery-card p-4 h-100">
+                            <div class="lottery-icon mb-3" style="background: linear-gradient(135deg, var(--ql-primary-dark), var(--ql-ink));">04</div>
+                            <h3 class="h4">Historial visible</h3>
+                            <p class="text-secondary">El usuario puede revisar rapidamente los ultimos 20 resultados sin salir de la portada.</p>
+                            <ul class="list-unstyled mb-0 small fw-semibold">
+                                <li class="py-2 border-top">20 sorteos recientes</li>
+                                <li class="py-2 border-top">Triple y terminal por fila</li>
+                                <li class="py-2 border-top">Ordenado del mas nuevo al mas antiguo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="info-card p-4 h-100">
+                            <div class="section-kicker mb-2">Como funciona</div>
+                            <h3 class="h4 mb-3">Flujo sencillo para el apostador</h3>
+                            <div class="d-flex gap-3 mb-3">
+                                <div class="lottery-icon flex-shrink-0">1</div>
+                                <div>
+                                    <div class="fw-bold">Elige tu modalidad</div>
+                                    <p class="text-secondary mb-0">Triple, terminal, combinado o punta y cola.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 mb-3">
+                                <div class="lottery-icon flex-shrink-0" style="background: linear-gradient(135deg, var(--ql-accent), var(--ql-accent-dark));">2</div>
+                                <div>
+                                    <div class="fw-bold">Carga monto y modalidad</div>
+                                    <p class="text-secondary mb-0">La apuesta entra en Quetzal Loto sin elegir operadoras adicionales.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <div class="lottery-icon flex-shrink-0" style="background: linear-gradient(135deg, var(--ql-secondary), #cdb392); color: var(--ql-ink);">3</div>
+                                <div>
+                                    <div class="fw-bold">Consulta resultados</div>
+                                    <p class="text-secondary mb-0">La misma pagina puede servir para mostrar historico y ultimos premios.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="stat-card p-4 h-100">
+                            <div class="section-kicker mb-2">Indicadores</div>
+                            <h3 class="h4 mb-4">Numeros para destacar confianza</h3>
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <div class="border rounded-4 p-3 text-center h-100">
+                                        <div class="display-6 fw-bold text-danger">+120k</div>
+                                        <div class="small text-secondary">Jugadas registradas</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="border rounded-4 p-3 text-center h-100">
+                                        <div class="display-6 fw-bold text-primary">24/7</div>
+                                        <div class="small text-secondary">Consulta de resultados</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="border rounded-4 p-3 text-center h-100">
+                                        <div class="display-6 fw-bold" style="color: #b09572;">4x</div>
+                                        <div class="small text-secondary">Sorteos al dia</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="border rounded-4 p-3 text-center h-100">
+                                        <div class="display-6 fw-bold" style="color: var(--ql-ink);">98%</div>
+                                        <div class="small text-secondary">Pagos procesados</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" id="promociones">
+                        <div class="promo-card p-4 h-100">
+                            <div class="section-kicker mb-2">Promociones</div>
+                            <h3 class="h4 mb-3">Area para bonos y llamadas a la accion</h3>
+                            <div class="border rounded-4 p-4 mb-3" style="background: linear-gradient(135deg, rgba(45, 106, 79, 0.08), rgba(216, 195, 165, 0.18));">
+                                <div class="small text-uppercase fw-bold text-danger mb-2">Bono de bienvenida</div>
+                                <div class="fs-2 fw-bold">20% extra</div>
+                                <p class="text-secondary mb-0">Ideal para incentivar el primer deposito o registro de usuarios en Guatemala.</p>
+                            </div>
+                            <div class="border rounded-4 p-4">
+                                <div class="small text-uppercase fw-bold text-primary mb-2">Agentes y bancas</div>
+                                <div class="fs-2 fw-bold">Panel reseller</div>
+                                <p class="text-secondary mb-0">Bloque pensado para captar administradores, vendedores y puntos fisicos en Guatemala.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" id="registrate">
+            <div class="container">
+                <div class="cta-banner p-4 p-lg-5">
+                    <div class="row align-items-center g-4 position-relative">
+                        <div class="col-lg-8">
+                            <div class="section-kicker text-warning mb-2">Llamado final</div>
+                            <h2 class="section-title mb-3">Estructura lista para convertirla en tu portal de apuestas.</h2>
+                            <p class="mb-0 text-white-50">Puedes conectar este HTML con login, panel administrativo, API de resultados o formularios de recarga para operar una loteria digital en Guatemala sin cambiar la base visual.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-grid gap-3">
+                                <a href="#jugadas" class="btn btn-warning btn-lg">Empezar ahora</a>
+                                <a href="#loterias" class="btn btn-outline-light btn-lg">Ver modalidades</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pt-5 pb-4 mt-4">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-4">
+                    <img src="assets/img/logo-quetzal-loto-light.svg" alt="Quetzal Loto" class="footer-logo mb-3">
+                    <p class="mb-0">Maqueta HTML responsive con Bootstrap para paginas de triples y terminales, orientada a una loteria digital en Guatemala.</p>
+                </div>
+                <div class="col-sm-6 col-lg-2">
+                    <h4 class="h6 text-uppercase fw-bold mb-3">Navegacion</h4>
+                    <div class="d-flex flex-column gap-2">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#resultados">Resultados</a>
+                        <a href="#jugadas">Jugadas</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <h4 class="h6 text-uppercase fw-bold mb-3">Modalidades</h4>
+                    <div class="d-flex flex-column gap-2">
+                        <a href="#loterias">Triple directo</a>
+                        <a href="#loterias">Terminales</a>
+                        <a href="#loterias">Punta y cola</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="h6 text-uppercase fw-bold mb-3">Contacto</h4>
+                    <div class="d-flex flex-column gap-2">
+                        <a href="tel:+580000000000">+58 000 000 0000</a>
+                        <a href="mailto:ventas@quetzalloto.com">ventas@quetzalloto.com</a>
+                        <span>Ciudad de Guatemala, Guatemala</span>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top border-secondary pt-3 d-flex flex-column flex-md-row justify-content-between gap-2 small">
+                <span>© 2026 Quetzal Loto. Estructura demo para loteria en Guatemala.</span>
+                <span>Bootstrap 5 + HTML5 responsive.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
