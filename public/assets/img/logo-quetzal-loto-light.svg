@@ -1,0 +1,29 @@
+<svg width="320" height="88" viewBox="0 0 320 88" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitleLight logoDescLight">
+  <title id="logoTitleLight">Quetzal Loto</title>
+  <desc id="logoDescLight">Logo en version clara para fondos oscuros.</desc>
+  <defs>
+    <linearGradient id="iconBgLight" x1="10" y1="10" x2="78" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8C5A0"/>
+      <stop offset="1" stop-color="#5C8F73"/>
+    </linearGradient>
+    <linearGradient id="featherLight" x1="27" y1="21" x2="61" y2="53" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCF8F1"/>
+      <stop offset="1" stop-color="#E8DCC8"/>
+    </linearGradient>
+    <linearGradient id="ballLight" x1="24" y1="47" x2="52" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCF8F1"/>
+      <stop offset="1" stop-color="#E8DCC8"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="76" height="76" rx="24" fill="url(#iconBgLight)"/>
+  <path d="M58.5 25.5C51 20.3 39.2 19.8 30.9 26.6C25.3 31.2 21.9 38.2 21 45.3C27.5 37.6 38.1 33 49.6 33.4C44.9 35.7 39.2 40 35.8 45.2C32.6 50 30.7 55.8 29.7 61.7C37.3 57.9 44.9 52.7 50.8 45.8C55.9 39.9 58.7 32.9 58.5 25.5Z" fill="url(#featherLight)"/>
+  <path d="M52.6 24.9C49.8 27.6 44.9 29 40.4 28.5C43.2 24.7 47.9 22 52.6 24.9Z" fill="#2D6A4F" fill-opacity="0.9"/>
+  <circle cx="39" cy="60" r="13" fill="url(#ballLight)"/>
+  <circle cx="39" cy="60" r="12" stroke="#FCF8F1" stroke-opacity="0.8" stroke-width="2"/>
+  <circle cx="33.5" cy="54.5" r="3" fill="#FFFFFF" fill-opacity="0.7"/>
+  <path d="M31.5 56.2H46.5" stroke="#3F6F58" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M39 48.7V71.3" stroke="#3F6F58" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="100" y="39" fill="#FCF8F1" font-family="Barlow, Arial, sans-serif" font-size="31" font-weight="800" letter-spacing="0.8">QUETZAL</text>
+  <text x="100" y="65" fill="#E8DCC8" font-family="Barlow, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3.2">LOTO</text>
+  <path d="M100 72H196" stroke="#D8C3A5" stroke-width="4" stroke-linecap="round"/>
+</svg>

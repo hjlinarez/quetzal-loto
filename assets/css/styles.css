@@ -66,6 +66,39 @@ h1, h2, h3, h4, .brand-font {
     color: var(--ql-ink);
 }
 
+.text-ink {
+    color: var(--ql-ink) !important;
+}
+
+.summary-card-bg {
+    background: linear-gradient(160deg, var(--ql-ink), var(--ql-primary-dark));
+}
+
+.lottery-icon-accent {
+    background: linear-gradient(135deg, var(--ql-accent), var(--ql-accent-dark));
+}
+
+.lottery-icon-beige {
+    background: linear-gradient(135deg, var(--ql-secondary), #cdb392);
+    color: var(--ql-ink);
+}
+
+.lottery-icon-dark {
+    background: linear-gradient(135deg, var(--ql-primary-dark), var(--ql-ink));
+}
+
+.stat-beige {
+    color: #b09572;
+}
+
+.stat-ink {
+    color: var(--ql-ink);
+}
+
+.promo-gradient {
+    background: linear-gradient(135deg, rgba(45, 106, 79, 0.08), rgba(216, 195, 165, 0.18));
+}
+
 .hero {
     padding: 4rem 0 2rem;
     position: relative;
